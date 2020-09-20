@@ -10,10 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Shop App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
+        accentColor: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        fontFamily: 'Lato',
       ),
       home: ProductsOverviewScreen(),
     );
