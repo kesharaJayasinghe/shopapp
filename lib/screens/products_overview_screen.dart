@@ -44,7 +44,7 @@ class ProductsOverviewScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.purple[700],
         elevation: 0,
-        title: Text('My Shop'),
+        title: Text('The Shop'),
       ),
       body: Container(
         decoration: BoxDecoration(
